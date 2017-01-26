@@ -1,17 +1,23 @@
 {
   "name": "ember-toggle-spark",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.0",
+  "description": "A sexier checkbox, built with Ember Sparks.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-sparks",
+    "checkbox",
+    "toggle"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Tristan Edwards <tristan.edwards@me.com> (http://tristanedwards.me)",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ember-sparks/toggle-spark.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
@@ -24,7 +30,7 @@
     "autoprefixer": "6.7.0",
     "ember-cli-htmlbars": "^1.0.10",
     "postcss-nesting": "2.3.1",
-    "ember-sparks": "*"
+    "ember-sparks": "0.1.0"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -44,12 +50,11 @@
     "ember-cli-test-loader": "^1.1.0",
     "ember-cli-uglify": "^1.2.0",
     "ember-content-editable": "0.10.0",
-    "ember-data": "^2.10.0",
     "ember-disable-prototype-extensions": "^1.1.0",
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
-    "ember-sparks-web": "*",
+    "ember-sparks-web": "0.1.0",
     "loader.js": "^4.0.10",
     "markdown-it": "8.2.2"
   },
@@ -57,6 +62,7 @@
     "node": ">= 0.12.0"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "demoURL": "http://ember-sparks.com/toggle-spark"
   }
 }
