@@ -1,6 +1,6 @@
 # {{toggle-spark}}
 
-My cool Ember Spark! Edit this text in the README.md
+More beautiful than a simple checkbox
 
 <http://ember-sparks.com/>
 
